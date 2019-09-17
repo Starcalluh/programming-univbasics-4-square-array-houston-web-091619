@@ -10,3 +10,11 @@ def square_array(new_numbers)
 end
 
 
+def square_array(numbers)
+  counter = 0 
+  new_array = []
+  while counter < numbers.length do
+    new_array << new_numbers[counter] ** 2
+    counter += 1
+  end
+end
